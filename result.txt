@@ -1,0 +1,118 @@
+rm -f -r bin/* obj/*
+g++ -ITools -c Prac2.cpp -o obj/Prac2.o
+g++ -ITools -c Tools/JPEG.cpp -o obj/JPEG.o
+g++ -ITools -c Tools/Timer.cpp -o obj/Timer.o
+g++ -o bin/Prac2 obj/Prac2.o obj/JPEG.o obj/Timer.o -L/usr/lib -lm -ljpeg -pthread
+bin/Prac2
+Repeat :1
+Opened "Data/fly.jpg": width = 821, height = 1024, c = 3
+File closed
+
+Clock resolution: 600 ns
+Time taken for golden measure test: 49878.3
+Time taken for 16 threads to run = 2398.28ms
+Time taken for 32 threads to run = 2582.55ms
+Time taken for 64 threads to run = 1508.15ms
+Time taken for 128 threads to run = 5.667ms
+Time taken for 256 threads to run = 11.421ms
+Time taken for 512 threads to run = 19.115ms
+Time taken for 1024 threads to run = 35.086ms
+Time taken for 16 threads to run = 3241.4ms
+Opened "Data/small.jpg": width = 300, height = 304, c = 3
+File closed
+
+Time taken for golden measure test: 2662.18
+Time taken for 16 threads to run = 376.938ms
+Time taken for 32 threads to run = 16.579ms
+Time taken for 64 threads to run = 2.354ms
+Time taken for 128 threads to run = 5.288ms
+Time taken for 256 threads to run = 9.697ms
+Time taken for 512 threads to run = 19.261ms
+Time taken for 1024 threads to run = 33.439ms
+Time taken for 16 threads to run = 591.683ms
+Opened "Data/greatwall.jpg": width = 1920, height = 2560, c = 3
+File closed
+
+Time taken for golden measure test: 303422
+Time taken for 16 threads to run = 22075.1ms
+Time taken for 32 threads to run = 20181.1ms
+Time taken for 64 threads to run = 17835.3ms
+Time taken for 128 threads to run = 12530.9ms
+Time taken for 256 threads to run = 3174.51ms
+Time taken for 512 threads to run = 36.007ms
+Time taken for 1024 threads to run = 53.612ms
+Time taken for 16 threads to run = 25822.5ms
+Repeat :2
+Opened "Data/fly.jpg": width = 821, height = 1024, c = 3
+File closed
+
+Time taken for golden measure test: 53477
+Time taken for 16 threads to run = 3375.16ms
+Time taken for 32 threads to run = 2788.86ms
+Time taken for 64 threads to run = 1670.58ms
+Time taken for 128 threads to run = 5.5ms
+Time taken for 256 threads to run = 25.684ms
+Time taken for 512 threads to run = 19.34ms
+Time taken for 1024 threads to run = 37.355ms
+Time taken for 16 threads to run = 3435.68ms
+Opened "Data/small.jpg": width = 300, height = 304, c = 3
+File closed
+
+Time taken for golden measure test: 2803.57
+Time taken for 16 threads to run = 510.954ms
+Time taken for 32 threads to run = 28.002ms
+Time taken for 64 threads to run = 3.175ms
+Time taken for 128 threads to run = 5.494ms
+Time taken for 256 threads to run = 10.368ms
+Time taken for 512 threads to run = 22.468ms
+Time taken for 1024 threads to run = 40.968ms
+Time taken for 16 threads to run = 639.115ms
+Opened "Data/greatwall.jpg": width = 1920, height = 2560, c = 3
+File closed
+
+Time taken for golden measure test: 307771
+Time taken for 16 threads to run = 21869.9ms
+Time taken for 32 threads to run = 19883.7ms
+Time taken for 64 threads to run = 17058ms
+Time taken for 128 threads to run = 11998.9ms
+Time taken for 256 threads to run = 2770.33ms
+Time taken for 512 threads to run = 20.592ms
+Time taken for 1024 threads to run = 37.229ms
+Time taken for 16 threads to run = 25035.1ms
+Repeat :3
+Opened "Data/fly.jpg": width = 821, height = 1024, c = 3
+File closed
+
+Time taken for golden measure test: 51684.7
+Time taken for 16 threads to run = 2553.12ms
+Time taken for 32 threads to run = 2820.5ms
+Time taken for 64 threads to run = 1612.12ms
+Time taken for 128 threads to run = 5.962ms
+Time taken for 256 threads to run = 15.292ms
+Time taken for 512 threads to run = 30.942ms
+Time taken for 1024 threads to run = 42.991ms
+Time taken for 16 threads to run = 3586.6ms
+Opened "Data/small.jpg": width = 300, height = 304, c = 3
+File closed
+
+Time taken for golden measure test: 3035.94
+Time taken for 16 threads to run = 431.559ms
+Time taken for 32 threads to run = 24.875ms
+Time taken for 64 threads to run = 2.517ms
+Time taken for 128 threads to run = 5.007ms
+Time taken for 256 threads to run = 10.671ms
+Time taken for 512 threads to run = 21.483ms
+Time taken for 1024 threads to run = 38.109ms
+Time taken for 16 threads to run = 628.548ms
+Opened "Data/greatwall.jpg": width = 1920, height = 2560, c = 3
+File closed
+
+Time taken for golden measure test: 294013
+Time taken for 16 threads to run = 20778ms
+Time taken for 32 threads to run = 19227.1ms
+Time taken for 64 threads to run = 16521.9ms
+Time taken for 128 threads to run = 12007.4ms
+Time taken for 256 threads to run = 2764ms
+Time taken for 512 threads to run = 21.823ms
+Time taken for 1024 threads to run = 37.839ms
+Time taken for 16 threads to run = 24970.3ms
